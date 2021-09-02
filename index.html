@@ -10,7 +10,7 @@
     </head>
     <body>
         <div class="navbar">
-            <div class="container">
+            <!-- <div class="container"> -->
                 <a href="#">
                     <div class="logo">
                         <img src="images/Rectangle 32.svg">
@@ -18,39 +18,47 @@
                     </div>
                 </a>
                 <nav>
-                    <ul class="navbar__menu-items">
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Help</a></li>
-                        <li><a href="#">Features</a></li>
-                        <li><a href="#">Signup</a></li>
+                    <ul class="navbar__menu">
+                        <li class="navbar__menu-items"><a href="#">About</a></li>
+                        <li class="navbar__menu-items"><a href="#">Help</a></li>
+                        <li class="navbar__menu-items"><a href="#">Features</a></li>
+                        <li class="navbar__menu-items"><a href="#">Signup</a></li>
                     </ul>
                 </nav>
                 <!-- <div class="navbar__request-demo"> -->
                     <button type="button" class="navbar__request-demo-button">
                         Request Demo
-                        <img src="images/purple arrow body.svg">
-                        <img src="images/purple arrow head.svg">
+                        <img class="arrow-body" src="images/purple-arrow-body.svg">
+                        <img class="arrow-head" src="images/purple-arrow-head.svg">
+                        
                     </button>
                     <!-- <a href=#>Request Demo</a> -->
                 <!-- </div> -->
-            </div>
+            <!-- </div> -->
         </div>
 
         <section class="hero">
-            <div class="container">
+            <!-- <div class="container"> -->
                 <div class="hero__left-column">
-                    <h1 class="hero__headline">Save your data storage here.</h1>
+                    <h1 class="hero__headline">
+                        Save your data
+                        <br>
+                        storage here.
+                    </h1>
                     <p class="hero__paragraph">
-                        Data Warehouse is a data storage area that has been tested for security, so you can store your data here safely but not be afraid of being stolen by others.
+                        Data Warehouse is a data storage area that <br>
+                        has been tested for security, so you can store <br>
+                        your data here safely but not be afraid of <br>
+                        being stolen by others.
                     </p>
                     <button type="button" class="hero__cta-button">
                         Learn more
                     </button>  
                 </div>
                 <div class="hero__right-column">
-                    <img src="images/image1 1.svg">
+                    <img class="hero__image" src="images/image1 1.svg">
                 </div>  
-            </div>
+            <!-- </div> -->
         </section>
 
         <section class="about">
@@ -167,10 +175,10 @@
                     <p class="cta__paragraph">Get limited 1 week free try our features!</p>
                 </div>
                 <div class="cta__right-column">
-                    <button type="button" class="cta__learn-more-button">
+                    <button type="button" class="button cta__learn-more-button">
                         Learn more
                     </button>
-                    <button type="button" class="cta__request-demo-button">
+                    <button type="button" class="button cta__request-demo-button">
                         Request Demo
                         <img src="images/purple arrow body.svg">
                         <img src="images/purple arrow head.svg">
