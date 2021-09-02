@@ -1,1 +1,39 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap");
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#F6FAFD), color-stop(19.4%, #FFFFFF));
+  background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
+  margin: 0;
+  font-family: 'Nunito Sans';
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.navbar {
+  margin: 2.9375em 15em 0 15em;
+}
+
+.navbar .logo {
+  margin: 0;
+  text-decoration: none;
+  float: left;
+}
+
+.navbar .navbar__menu-items {
+  list-style-type: none;
+  text-decoration: none;
+  margin-left: 7.5625;
+  padding: 0;
+  position: unset;
+}
+
+.navbar .navbar__menu-items li {
+  display: inline;
+  position: relative;
+}
+
+.navbar .navbar__request-demo-button {
+  float: right;
+}
+/*# sourceMappingURL=main.css.map */
