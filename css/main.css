@@ -273,6 +273,7 @@ body {
   position: absolute;
   left: 0.1em;
   top: 8.7em;
+  z-index: 2;
 }
 
 .features .features__list-container .features__list-item .features__list-header {
@@ -284,6 +285,67 @@ body {
   position: absolute;
   top: 5.2rem;
   left: 17.3rem;
+  z-index: 2;
+}
+
+.features .features__list-container .features__list-item .features__vector-1 {
+  position: absolute;
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+  top: 3.9rem;
+  left: 19.6rem;
+  width: 14.74em;
+  height: 9em;
+}
+
+.features .features__list-container .features__list-item .features__ellipse-1 {
+  position: absolute;
+  -webkit-transform: rotate(47deg);
+          transform: rotate(47deg);
+  top: 5.8rem;
+  left: 24.5rem;
+  width: 3.11em;
+  height: 2.24em;
+}
+
+.features .features__list-container .features__list-item .features__vector-2 {
+  position: absolute;
+  -webkit-transform: rotate(3deg);
+          transform: rotate(3deg);
+  top: 15rem;
+  left: 17.6rem;
+  width: 16.5em;
+  height: 9.5em;
+}
+
+.features .features__list-container .features__list-item .features__ellipse-3 {
+  position: absolute;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  top: 4.5rem;
+  left: 27rem;
+  width: 6.25em;
+  height: 4.51em;
+}
+
+.features .features__list-container .features__list-item .features__vector-4 {
+  position: absolute;
+  -webkit-transform: rotate(-62deg);
+          transform: rotate(-62deg);
+  top: 5rem;
+  left: 6.5rem;
+  width: 24.22em;
+  height: 13.77em;
+}
+
+.features .features__list-container .features__list-item .features__ellipse-4 {
+  position: absolute;
+  -webkit-transform: rotate(55deg);
+          transform: rotate(55deg);
+  top: 20.5rem;
+  left: 27rem;
+  width: 5.6em;
+  height: 4.2em;
 }
 
 .features .features__list-container .features__list-item .features__list-paragraph {
@@ -296,6 +358,7 @@ body {
   color: var(--secondary-text-color);
   top: 9.45rem;
   left: 17.3rem;
+  z-index: 2;
 }
 
 .features .features__list-container .features__list-item .features__list-learn-more {
