@@ -13,6 +13,7 @@ body {
   margin: 0 14.3em;
   font-family: 'Nunito Sans';
   width: 1600px;
+  height: 4400px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -526,5 +527,160 @@ body {
   position: relative;
   top: 0.2rem;
   left: 0.3rem;
+}
+
+.footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 35em auto auto auto;
+      grid-template-columns: 35em auto auto auto;
+  position: relative;
+}
+
+.footer .footer__logo-link {
+  text-decoration: none;
+}
+
+.footer .footer__logo {
+  position: relative;
+  top: 9.38em;
+  left: 15em;
+}
+
+.footer .footer__company-name {
+  position: relative;
+  font-weight: 800;
+  font-size: 1.25rem;
+  line-height: 160%;
+  color: var(--primary-text-color);
+  bottom: 2.7em;
+  left: 3.2em;
+}
+
+.footer .footer__address {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 180%;
+  letter-spacing: 0.01rem;
+  color: var(--primary-text-color);
+}
+
+.footer .footer__contact {
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 180%;
+  letter-spacing: 0.01rem;
+  color: var(--primary-text-color);
+}
+
+.footer .footer__about-header {
+  position: relative;
+  font-weight: 800;
+  font-size: 1.05rem;
+  line-height: 160%;
+  color: var(--primary-text-color);
+  top: 8.9rem;
+  left: 9.6rem;
+}
+
+.footer .footer__about-list {
+  list-style: none;
+  padding: 0;
+}
+
+.footer .footer__about-items {
+  position: relative;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 250%;
+  color: var(--primary-text-color);
+  top: 10rem;
+  left: 9.6rem;
+}
+
+.footer .footer__help-header {
+  position: relative;
+  font-weight: 800;
+  font-size: 1.05rem;
+  line-height: 160%;
+  color: var(--primary-text-color);
+  top: 8.9rem;
+  left: 2.8rem;
+}
+
+.footer .footer__help-list {
+  list-style: none;
+  padding: 0;
+}
+
+.footer .footer__help-items {
+  position: relative;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 250%;
+  color: var(--primary-text-color);
+  top: 10rem;
+  left: 2.8rem;
+}
+
+.footer .footer__social-media-header {
+  position: relative;
+  font-weight: 800;
+  font-size: 1.05rem;
+  line-height: 160%;
+  color: var(--primary-text-color);
+  top: 8.9rem;
+  left: -4.9rem;
+}
+
+.footer .footer__social-media-list {
+  list-style: none;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .footer__social-media-items {
+  text-decoration: none;
+  top: -10rem;
+}
+
+.footer .footer__icon-fb-bg {
+  position: absolute;
+  top: 13.8rem;
+  left: 71.8rem;
+}
+
+.footer .footer__icon-fb {
+  position: relative;
+  top: 11rem;
+  left: -4rem;
+}
+
+.footer .footer__icon-twitter-bg {
+  position: absolute;
+  top: 13.8rem;
+  left: 76rem;
+}
+
+.footer .footer__icon-twitter {
+  position: relative;
+  top: 11.1rem;
+  left: -0.6rem;
+}
+
+.footer .footer__icon-ig-bg {
+  position: absolute;
+  top: 13.8rem;
+  left: 80.2rem;
+}
+
+.footer .footer__icon-ig {
+  position: relative;
+  top: 11.1rem;
+  left: 2.45rem;
 }
 /*# sourceMappingURL=main.css.map */
