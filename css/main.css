@@ -270,4 +270,41 @@ body {
   top: 5.2rem;
   left: 17.3rem;
 }
+
+.features .features__list-container .features__list-item .features__list-paragraph {
+  position: absolute;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 160%;
+  width: 13.8rem;
+  height: 3.13rem;
+  color: var(--secondary-text-color);
+  top: 9.45rem;
+  left: 17.3rem;
+}
+
+.features .features__list-container .features__list-item .features__list-learn-more {
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 1rem;
+  line-height: 160%;
+  letter-spacing: 0.005em;
+  color: var(--primary-text-color);
+  position: absolute;
+  left: 17.3rem;
+  bottom: 5.7rem;
+}
+
+.features .features__list-container .features__list-item .features__list-learn-more .features__arrow-body {
+  width: 1.25em;
+  height: 0.6em;
+  position: relative;
+  left: 1rem;
+}
+
+.features .features__list-container .features__list-item .features__list-learn-more .features__arrow-head {
+  position: relative;
+  top: 0.2rem;
+  left: 0.3rem;
+}
 /*# sourceMappingURL=main.css.map */

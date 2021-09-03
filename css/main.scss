@@ -269,6 +269,47 @@ body {
                 left: 17.3rem;
             }
 
+            .features__list-paragraph {
+                position: absolute;
+                font-weight: normal;
+                font-size: 1rem;
+                line-height: 160%;
+                width: 13.8rem;
+                height: 3.13rem;
+                color: var(--secondary-text-color);
+                top: 9.45rem;
+                left: 17.3rem;
+            }
+
+            .features__list-learn-more {
+                text-decoration: none;
+                font-weight: 800;
+                font-size: 1rem;
+                line-height: 160%;
+                letter-spacing: 0.005em;
+                color: var(--primary-text-color);
+                position: absolute;
+                left: 17.3rem;
+                bottom: 5.7rem;
+
+                .features__arrow-body {
+                    width: 1.25em;
+                    height: 0.6em;
+                    position: relative;
+                    left: 1rem;
+                }
+
+                .features__arrow-head {
+                    // width: 0.88em;
+                    // height: 0.38em;
+                    position: relative;
+                    top: 0.2rem;
+                    left: 0.3rem;
+                }
+            }
+
+
+
         }
     }
 }
@@ -280,35 +321,3 @@ body {
 
 
 
-
-// .hero__headline {
-    // position: absolute;
-    // width: 645px;
-    // height: 184px;
-    // left: 240px;
-    // top: 237px;
-
-    // font-family: Helvetica;
-    // font-style: normal;
-    // font-weight: bold;
-    // font-size: 80px;
-    // line-height: 110%;
-    // /* or 88px */
-
-    // display: flex;
-    // align-items: center;
-
-    // /* 2 */
-
-    // color: #212353;
-// }
-
-// .hero__paragraph {
-    // font-size: 18px;
-    // font-style: normal;
-    // font-weight: 500;
-    // line-height: 29px;
-    // letter-spacing: 0em;
-    // text-align: left;
-
-// }
