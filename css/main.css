@@ -307,4 +307,13 @@ body {
   top: 0.2rem;
   left: 0.3rem;
 }
+
+.testimonials {
+  position: relative;
+  margin: 0;
+  background: #9C69E2;
+  border-radius: 50px;
+  width: 69.88em;
+  height: 44.31em;
+}
 /*# sourceMappingURL=main.css.map */
