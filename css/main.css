@@ -12,7 +12,7 @@ body {
           box-shadow: 0px 10px 10px rgba(75, 93, 104, 0.1);
   margin: 0 14.3em;
   font-family: 'Nunito Sans';
-  width: 1600;
+  width: 1600px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -66,15 +66,29 @@ body {
   display: inline;
   margin-left: auto;
   float: right;
-  padding: 1.06em 1.81em;
+  padding: 1.2em 1.81em;
   background-color: #FFFFFF;
   border: none;
   border-radius: 50px;
   -webkit-box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
           box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
   cursor: pointer;
+  font-size: 1rem;
   font-weight: bold;
   color: var(--primary-text-color);
+}
+
+.navbar .navbar__request-demo-button .arrow-body {
+  width: 1.25em;
+  height: 0.6em;
+  position: relative;
+  left: 1rem;
+}
+
+.navbar .navbar__request-demo-button .arrow-head {
+  position: relative;
+  top: 0.2rem;
+  left: 0.3rem;
 }
 
 .hero {
@@ -353,7 +367,6 @@ body {
 }
 
 .testimonials .testimonials__list-paragraph {
-  position: relative;
   font-weight: normal;
   font-size: 1.13rem;
   line-height: 180%;
@@ -388,6 +401,7 @@ body {
 }
 
 .testimonials .testimonials__list-item-1 .testimonials__list-paragraph-1 {
+  position: relative;
   width: 22.5rem;
   height: 8.13rem;
   left: 12.1rem;
@@ -431,5 +445,86 @@ body {
   left: 9.8rem;
   bottom: 2rem;
   opacity: 0.8;
+}
+
+.line {
+  width: 100em;
+  margin-top: 3.13em;
+}
+
+.cta {
+  position: relative;
+}
+
+.cta .cta__header {
+  position: relative;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 130%;
+  color: var(--primary-text-color);
+  margin: 6.25rem 0 0 15rem;
+  width: 25.31rem;
+}
+
+.cta .cta__paragraph {
+  position: relative;
+  font-weight: 600;
+  font-size: 1.13rem;
+  line-height: 160%;
+  color: var(--secondary-text-color);
+  top: 1.25rem;
+  left: 15rem;
+  margin: 0;
+  width: 36.5rem;
+}
+
+.cta .cta__learn-more-button {
+  float: right;
+  width: 9.6em;
+  height: 3.3em;
+  background: #F063B8;
+  border: none;
+  border-radius: 50px;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 1.13rem;
+  line-height: 160%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  cursor: pointer;
+  margin-top: -3.8em;
+  margin-right: 26.5em;
+}
+
+.cta .cta__request-demo-button {
+  float: right;
+  padding: 1.2em 1.81em;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 50px;
+  -webkit-box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+          box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+  color: var(--primary-text-color);
+  margin-top: -4.30em;
+  margin-right: 15.5em;
+}
+
+.cta .cta__request-demo-button .arrow-body {
+  width: 1.25em;
+  height: 0.6em;
+  position: relative;
+  left: 1rem;
+}
+
+.cta .cta__request-demo-button .arrow-head {
+  position: relative;
+  top: 0.2rem;
+  left: 0.3rem;
 }
 /*# sourceMappingURL=main.css.map */
