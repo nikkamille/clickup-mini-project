@@ -9,7 +9,7 @@ body {
     background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
     border: 0;
     box-shadow: 0px 10px 10px rgba(75, 93, 104, 0.1);
-    margin: 0 12em 0 12em;
+    margin: 0 14.3em;
     // delete margin after
     font-family: 'Nunito Sans';
     width: 1600;
@@ -184,7 +184,93 @@ body {
 }
 
 .features {
+    position: relative;
+    // width: 71.08em;
+    // height: 64.13em;
+    // margin: 9.36em 15.17em 9.38em 13.75;
     margin: 0;
+
+    .features__header {
+        font-family: Helvetica;
+        font-weight: bold;
+        font-size: 2.5rem;
+        line-height: 130%;
+        align-items: center;
+        text-align: center;
+        color: var(--primary-text-color);
+        margin-top: 9.36rem;
+        margin-bottom: 0;
+    }
+
+    .features__paragraph {
+        font-weight: 600;
+        font-size: 1.13rem;
+        line-height: 160%;
+        text-align: center;
+        color: var(--secondary-text-color);
+        margin: 3.13em 0 3.13em 0;
+    }
+
+    .features__list-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        gap: 2.5em;
+        justify-content: space-between;
+        list-style: none;
+        position: relative;
+        padding: 0;
+        margin: 0 15.17em 0 13.75em;
+
+        .features__list-item {
+            position: relative;
+
+            .features__list-bg {
+                // justify-content: end;
+                margin: 3.13em 0 3.13em 6.7em;
+                // margin-left: 6.77em;
+                // left: 6.77em;
+                width: 27.63em;
+                height: 22.38em;
+            }
+            
+            .features__list-image-1 {
+                position: absolute;
+                left: 1em;
+                top: 7.7em;
+            }
+
+            .features__list-image-2 {
+                position: absolute;
+                left: 0.1em;
+                top: 7.7em;
+            }
+
+            .features__list-image-3 {
+                position: absolute;
+                left: -0.3em;
+                top: 10.9em;
+            }
+
+            .features__list-image-4 {
+                position: absolute;
+                left: 0.1em;
+                top: 8.7em;
+            }
+
+            .features__list-header {
+                font-family: Helvetica;
+                font-weight: normal;
+                font-size: 1.5rem;
+                line-height: 130%;
+                color: var(--primary-text-color);
+                position: absolute;
+                top: 5.2rem;
+                left: 17.3rem;
+            }
+
+        }
+    }
 }
 
 

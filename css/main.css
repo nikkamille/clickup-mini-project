@@ -10,7 +10,7 @@ body {
   border: 0;
   -webkit-box-shadow: 0px 10px 10px rgba(75, 93, 104, 0.1);
           box-shadow: 0px 10px 10px rgba(75, 93, 104, 0.1);
-  margin: 0 12em 0 12em;
+  margin: 0 14.3em;
   font-family: 'Nunito Sans';
   width: 1600;
   -webkit-box-pack: center;
@@ -182,6 +182,92 @@ body {
 }
 
 .features {
+  position: relative;
   margin: 0;
+}
+
+.features .features__header {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 130%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: var(--primary-text-color);
+  margin-top: 9.36rem;
+  margin-bottom: 0;
+}
+
+.features .features__paragraph {
+  font-weight: 600;
+  font-size: 1.13rem;
+  line-height: 160%;
+  text-align: center;
+  color: var(--secondary-text-color);
+  margin: 3.13em 0 3.13em 0;
+}
+
+.features .features__list-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  -ms-grid-rows: auto auto;
+      grid-template-rows: auto auto;
+  gap: 2.5em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  position: relative;
+  padding: 0;
+  margin: 0 15.17em 0 13.75em;
+}
+
+.features .features__list-container .features__list-item {
+  position: relative;
+}
+
+.features .features__list-container .features__list-item .features__list-bg {
+  margin: 3.13em 0 3.13em 6.7em;
+  width: 27.63em;
+  height: 22.38em;
+}
+
+.features .features__list-container .features__list-item .features__list-image-1 {
+  position: absolute;
+  left: 1em;
+  top: 7.7em;
+}
+
+.features .features__list-container .features__list-item .features__list-image-2 {
+  position: absolute;
+  left: 0.1em;
+  top: 7.7em;
+}
+
+.features .features__list-container .features__list-item .features__list-image-3 {
+  position: absolute;
+  left: -0.3em;
+  top: 10.9em;
+}
+
+.features .features__list-container .features__list-item .features__list-image-4 {
+  position: absolute;
+  left: 0.1em;
+  top: 8.7em;
+}
+
+.features .features__list-container .features__list-item .features__list-header {
+  font-family: Helvetica;
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 130%;
+  color: var(--primary-text-color);
+  position: absolute;
+  top: 5.2rem;
+  left: 17.3rem;
 }
 /*# sourceMappingURL=main.css.map */
